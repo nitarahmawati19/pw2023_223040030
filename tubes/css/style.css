@@ -4,6 +4,16 @@
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
+.carousel-contain {
+	background-color: black;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+.bordered {
+	border: solid white;
+}
+
 .parallax-container{
     height: 20%;
 }
