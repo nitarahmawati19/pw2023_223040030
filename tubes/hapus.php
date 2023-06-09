@@ -1,6 +1,6 @@
 <?php
 require 'functions.php';
-$id = $_GET['id_produk'];
+$id = $_GET['id'];
 if (hapus($id) > 0) {
     echo "<script>
     

@@ -16,10 +16,10 @@
         <div class="row">
             <div class="col-md-8">
                 <form action="" method="post">
-                    <input type="hidden" name="id" value="<?= $produk['id_produk']; ?>">
+                    <input type="hidden" name="id_produk" value="<?= $produk['id_produk']; ?>">
                     <div class="mb-3 w-25">
                         <label for="nama" class="form-label">Nama Produk</label>
-                        <input type="text" class="form-control" name="nama" id="nama" maxlength="9" autofocus required value="<?= $produk['nama_produk']; ?>">
+                        <input type="text" class="form-control" name="nama_produk" id="nama" maxlength="9" autofocus required value="<?= $produk['nama_produk']; ?>">
                     </div>
                     <div class="mb-3">
                         <label for="link" class="form-label">Link</label>

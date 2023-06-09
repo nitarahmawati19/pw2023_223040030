@@ -25,6 +25,7 @@ if (isset($_SESSION['login'])) {
 
 if (isset($_POST["login"])) {
 
+
     $username = $_POST["username"];
     $password = $_POST["password"];
 
@@ -38,14 +39,6 @@ if (isset($_POST["login"])) {
         if (password_verify($password, $row["password"])) {
             // set session
             $_SESSION["login"] = true;
-
-            //cek remember me
-            if (isset($_POST['remember'])) {
-                //buat cookie
-
-                setcookie('id', $row['id'], time() + 60);
-                setcookie('key', hash('sha256', $row['username']), time(+60));
-            }
 
             header("Location: index.php");
             exit;
@@ -81,7 +74,7 @@ if (isset($_POST["login"])) {
                         <label for="inputPassword6" class="col-form-label">Username</label>
                     </div>
                     <div class="col-md-3">
-                        <input type="username" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline">
+                        <input type="text" name="username" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline">
                     </div>
                 </div>
 
@@ -91,10 +84,10 @@ if (isset($_POST["login"])) {
                         <label for="inputPassword6" class="col-form-label">Password</label>
                     </div>
                     <div class="col-md-3">
-                        <input type="password" id="inputPassword6" class="form-control" placeholder="Must be 8-20 characters long.">
+                        <input type="password" name="password" id="inputPassword6" class="form-control" placeholder="Must be 8-20 characters long.">
                     </div>
                 </div>
-                <button class="btn btn-primary" type="submit" name="tambah">Masuk</button>
+                <button class="btn btn-primary" type="submit" name="login">Masuk</button>
                 <div class="registrasi mb-3 mt-2">
                     <p>Belum punya akun? <a href="registrasi.php" class="text-decoration-none">Daftar di sini.</a></p>
                 </div>

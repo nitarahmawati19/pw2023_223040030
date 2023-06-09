@@ -19,7 +19,7 @@
                     <input type="hidden" name="id" value="<?= $produk['id_produk']; ?>">
                     <div class="mb-3 w-25">
                         <label for="nama" class="form-label">Nama Produk</label>
-                        <input type="text" class="form-control" name="nama" id="nama" maxlength="9" autofocus required>
+                        <input type="text" class="form-control" name="nama_produk" id="nama" maxlength="9" autofocus required>
                     </div>
                     <div class="mb-3">
                         <label for="link" class="form-label">Link</label>
@@ -29,7 +29,7 @@
                         <label for="gambar" class="form-label">Gambar</label>
                         <input type="text" class="form-control" name="gambar" id="gambar">
                     </div>
-                    <button class="btn btn-warning" type="submit" name="ubah">Tambah Data</button>
+                    <button class="btn btn-warning" type="submit" name="tambah">Tambah Data</button>
                 </form>
             </div>
         </div>
