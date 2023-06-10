@@ -2,18 +2,15 @@
 <html>
 
 <head>
-    <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" /> -->
-    <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <title>TUBES 223040030</title>
 
-<body id="home" class="scrollspy">
+<body id="home" class="scrollspy overflow-x-hidden">
     <!-- navbar -->
     <nav class="navbar bg-dark" data-bs-theme="dark">
         <div class="navbar-fixed fixed-top">
@@ -53,16 +50,13 @@
     <!-- slider -->
 
 
-    <div id="carouselExample" class="carousel slide">
+    <div id="carouselExample" class="carousel slide pt-5">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="img/slider/home.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="img/slider/home.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/slider/home.jpg" class="d-block w-100" alt="...">
+                <img src="img/slider/home1.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -80,38 +74,38 @@
             <div class="row">
                 <h3 class="light center grey-text text-darken-3">Explore</h3>
                 <div class="col m4 s12">
-                    <div class="card-panel center">
-                        <img src="img/explore/qm.png" alt>
-                        <h5>Quality Material</h5>
-                        <p>At Baseus, quality ranks on top to ensure all our
-                            user gets the most out of our products with an
-                            extend time use while remaining ecofriendly to
-                            contribute just a little bit.</p>
+                    <div class="card">
+                        <img src="img/explore/qm.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Quality Material</h5>
+                            <p class="card-text">At Baseus, quality ranks on top to ensure all our
+                                user gets the most out of our products with an
+                                extend time use while remaining ecofriendly to
+                                contribute just a little bit.</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/explore/ac.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Advanced Tech</h5>
+                                <p class="card-text">Our product stands apart by integrating the
+                                    industry-leading GaN technology. We are proud to be
+                                    the pioneer of the worlds premier GaN charger, and
+                                    we will continue to built-in advanced tech into our
+                                    product.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/explore/sd.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sophisticated Design</h5>
+                                <p class="card-text">Every single piece of gadget we engineer carries all
+                                    our thoughts and efforts to deliver users an
+                                    optimized experience that makes usage a breeze,
+                                    without compromising the look and the touch.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col m4 s12">
-                    <div class="card-panel center">
-                        <img src="img/explore/ac.png">
-                        <h5>Advanced Tech</h5>
-                        <p>Our product stands apart by integrating the
-                            industry-leading GaN technology. We are proud to be
-                            the pioneer of the worlds premier GaN charger, and
-                            we will continue to built-in advanced tech into our
-                            product.</p>
-                    </div>
-                </div>
-                <div class="col m4 s12">
-                    <div class="card-panel center">
-                        <img src="img/explore/sd.png">
-                        <h5>Sophisticated Design</h5>
-                        <p>Every single piece of gadget we engineer carries all
-                            our thoughts and efforts to deliver users an
-                            optimized experience that makes usage a breeze,
-                            without compromising the look and the touch.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 
     <!-- Clients -->
