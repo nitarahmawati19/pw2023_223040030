@@ -5,7 +5,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <title>TUBES 223040030</title>
@@ -34,7 +33,7 @@
                                 <a class="nav-link active" aria-current="page" href="#contact">Contact Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                                <a class="nav-link active" aria-current="page" href="login.php">Login</a>
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
@@ -48,8 +47,6 @@
     </nav>
 
     <!-- slider -->
-
-
     <div id="carouselExample" class="carousel slide pt-5">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -68,12 +65,13 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+
     <!-- explore -->
     <section id="explore" class="grey lighten-3 scrollspy">
         <div class="container">
+            <h3 class="light center grey-text text-darken-3">Explore</h3>
             <div class="row">
-                <h3 class="light center grey-text text-darken-3">Explore</h3>
-                <div class="col m4 s12">
+                <div class="col">
                     <div class="card">
                         <img src="img/explore/qm.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -83,29 +81,36 @@
                                 extend time use while remaining ecofriendly to
                                 contribute just a little bit.</p>
                         </div>
-                        <div class="card">
-                            <img src="img/explore/ac.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Advanced Tech</h5>
-                                <p class="card-text">Our product stands apart by integrating the
-                                    industry-leading GaN technology. We are proud to be
-                                    the pioneer of the worlds premier GaN charger, and
-                                    we will continue to built-in advanced tech into our
-                                    product.</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="img/explore/sd.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Sophisticated Design</h5>
-                                <p class="card-text">Every single piece of gadget we engineer carries all
-                                    our thoughts and efforts to deliver users an
-                                    optimized experience that makes usage a breeze,
-                                    without compromising the look and the touch.</p>
-                            </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/explore/ac.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Advanced Tech</h5>
+                            <p class="card-text">Our product stands apart by integrating the
+                                industry-leading GaN technology. We are proud to be
+                                the pioneer of the worlds premier GaN charger, and
+                                we will continue to built-in advanced tech into our
+                                product.</p>
                         </div>
                     </div>
                 </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/explore/sd.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sophisticated Design</h5>
+                            <p class="card-text">Every single piece of gadget we engineer carries all
+                                our thoughts and efforts to deliver users an
+                                optimized experience that makes usage a breeze,
+                                without compromising the look and the touch.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
     </section>
 
     <!-- Clients -->
@@ -131,122 +136,79 @@
     </div>
 
     <!-- catalog -->
-    <section id="products" class="products scrollspy">
+    <section id="products">
         <div class="container">
             <h3 class="light center grey-text text-darken-3">Best Selling
                 Products</h3>
             <div class="row">
-                <div class="col m3 s12">
+                <div class="col">
                     <div class="card">
-                        <div class="card-image">
-                            <img src="img/catalog/wm02.png">
-                        </div>
-                        <div class="card-content">
-                            <p>Baseus Bowie WM02 Plus TWS Wireless Earbuds</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="https://www.baseus.com/products/bowie-wm02-plus-tws-wireless-earbuds?_pos=1&_fid=fbd871061&_ss=c" class="waves-effect yellow btn">Shop
-                                Now</a>
+                        <img src="img/catalog/wm02.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Baseus Bowie WM02 Plus TWS Wireless Earbuds</h5>
+                            <a href="https://www.baseus.com/products/bowie-wm02-plus-tws-wireless-earbuds?_pos=1&_fid=fbd871061&_ss=c" class="btn btn-warning">Shop Now</a>
                         </div>
                     </div>
                 </div>
-                <div class="col m3 s12">
+
+                <div class="col">
                     <div class="card">
-                        <div class="card-image">
-                            <img src="img/catalog/m2plus.png">
-                        </div>
-                        <div class="card-content">
-                            <p>Baseus Bowie M2 Plus TWS Wireless Earbuds</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="https://www.baseus.com/products/bowie-m2-plus-tws-wireless-earbuds?_pos=14&_fid=c9b3792f5&_ss=c" class="waves-effect yellow btn">Shop
-                                Now</a>
+                        <img src="img/catalog/m2plus.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Baseus Bowie M2 Plus TWS Wireless Earbuds</h5>
+                            <a href="https://www.baseus.com/products/bowie-m2-plus-tws-wireless-earbuds?_pos=14&_fid=c9b3792f5&_ss=c" class="btn btn-warning">Shop Now</a>
                         </div>
                     </div>
                 </div>
-                <div class="col m3 s12">
+
+                <div class="col">
                     <div class="card">
-                        <div class="card-image">
-                            <img src="img/catalog/simus1.png">
-                        </div>
-                        <div class="card-content">
-                            <p>Baseus SIMU S1 Pro ANC TWS Wireless Earbuds</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="https://www.baseus.com/products/simu-s1-pro-anc-tws-wireless-earbuds?_pos=17&_fid=c9b3792f5&_ss=c" class="waves-effect yellow btn">Shop
-                                Now</a>
+                        <img src="img/catalog/simus1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Baseus SIMU S1 Pro ANC TWS Wireless Earbuds</h5>
+                            <a href="https://www.baseus.com/products/simu-s1-pro-anc-tws-wireless-earbuds?_pos=17&_fid=c9b3792f5&_ss=c" class="btn btn-warning">Shop Now</a>
                         </div>
                     </div>
                 </div>
-                <div class="col m3 s12">
+
+                <div class="col">
                     <div class="card">
-                        <div class="card-image">
-                            <img src="img/catalog/starlord.png">
-                        </div>
-                        <div class="card-content">
-                            <p>Baseus Star-Lord Power Bank 22.5W 30000mAh</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="https://www.baseus.com/products/star-lord-power-bank-22-5w-30000mah?_pos=9&_fid=c9b3792f5&_ss=c" class="waves-effect yellow btn">Shop
-                                Now</a>
+                        <img src="img/catalog/starlord.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Baseus Star-Lord Power Bank 22.5W 30000mAh</h5>
+                            <a href="https://www.baseus.com/products/star-lord-power-bank-22-5w-30000mah?_pos=9&_fid=c9b3792f5&_ss=c" class="btn btn-warning">Shop Now</a>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="row">
-                <div class="col m3 s12">
+                <div class="col">
                     <div class="card">
-                        <div class="card-image">
-                            <img src="img/catalog/airpow.png">
-                        </div>
-                        <div class="card-content">
-                            <p>Baseus Airpow Power Bank 20W 20000mAh</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="https://www.baseus.com/products/airpow-power-bank-20w-20000mah?_pos=11&_fid=c9b3792f5&_ss=c" class="waves-effect yellow btn">Shop
-                                Now</a>
+                        <img src="img/catalog/airpow.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Baseus Airpow Power Bank 20W 20000mAh</h5>
+                            <a href="https://www.baseus.com/products/airpow-power-bank-20w-20000mah?_pos=11&_fid=c9b3792f5&_ss=c" class="btn btn-warning">Shop Now</a>
                         </div>
                     </div>
                 </div>
-                <div class="col m3 s12">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/catalog/elf.png">
-                        </div>
-                        <div class="card-content">
-                            <p>Baseus Elf Power Bank 65W 20000mAh</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="https://www.baseus.com/products/elf-power-bank-65w-20000mah?_pos=10&_fid=c9b3792f5&_ss=c" class="waves-effect yellow btn">Shop
-                                Now</a>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/catalog/gan.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Baseus GaN 2 in 1 Power Bank 45W 10000mAh</h5>
+                            <a href="https://www.baseus.com/products/gan-2-in-1-power-bank-45w-10000mah?_pos=15&_fid=c9b3792f5&_ss=c" class="btn btn-warning">Shop Now</a>
                         </div>
                     </div>
                 </div>
-                <div class="col m3 s12">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/catalog/gan.png">
-                        </div>
-                        <div class="card-content">
-                            <p>Baseus GaN 2 in 1 Power Bank 45W 10000mAh</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="https://www.baseus.com/products/gan-2-in-1-power-bank-45w-10000mah?_pos=15&_fid=c9b3792f5&_ss=c" class="waves-effect yellow btn">Shop
-                                Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col m3 s12">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/catalog/adaman.png">
-                        </div>
-                        <div class="card-content">
-                            <p>Baseus Adaman2 Power Bank 30W 20000mAh VOOC</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="https://www.baseus.com/products/adaman2-power-bank-30w-20000mah-vooc?_pos=13&_fid=c9b3792f5&_ss=c" class="waves-effect yellow btn">Shop
-                                Now</a>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/catalog/adaman.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Baseus Adaman2 Power Bank 30W 20000mAh VOOC</h5>
+                            <a href="https://www.baseus.com/products/adaman2-power-bank-30w-20000mah-vooc?_pos=13&_fid=c9b3792f5&_ss=c" class="btn btn-warning">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -311,33 +273,7 @@
     <footer class="black darken-4 white-text center">
         <p>CopyRight 2023 Nta Rahmawati All Rights Reserved</p>
         <footer>
-
-            <!--JavaScript at end of body for optimized loading-->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-
-            <script type="text/javascript" src="js/materialize.min.js">
-                const sideNav = document.querySelectorAll('.sidenav')
-                M.Sidenav.init(sideNav);
-
-                const slider = document.querySelectorAll('.slider');
-                M.Slider.init(slider, {
-                    indicators: false,
-                    height: 500,
-                    transition: 600,
-                    interval: 3000
-                });
-
-                const parallax = document.querySelectorAll('.parallax')
-                M.Parallax.init(parallax);
-
-                const materialbox = document.querySelectorAll('.materialboxed')
-                M.Materialbox.init(materialbox);
-
-                const scroll = document.querySelectorAll('.scrollspy')
-                M.ScrollSpy.init(scroll, {
-                    scrollOffset: 50
-                });
-            </script>
 </body>
 
 </html>
