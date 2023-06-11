@@ -117,21 +117,21 @@
     <!-- <div class="container">
         <div class="row">
             <div class="col">
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img src="img/clients/amazon.png" class="card-img-top" alt="...">
                     <div class="card-body">
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img src="img/clients/lazada.png" class="card-img-top" alt="...">
                     <div class="card-body">
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img src="img/clients/shopee.png" class="card-img-top" alt="...">
                     <div class="card-body">
                     </div>
@@ -145,8 +145,8 @@
         <div class="container">
             <h3 class="light center grey-text text-darken-3">Best Selling
                 Products</h3>
-            <div class="row">
-                <div class="col">
+            <div class="row row-whith-wide-cards">
+                <div class="col d-flex align-items-stretch">
                     <div class="card">
                         <img src="img/catalog/wm02.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -156,7 +156,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col d-flex align-items-stretch">
                     <div class="card">
                         <img src="img/catalog/m2plus.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -166,7 +166,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col d-flex align-items-stretch">
                     <div class="card">
                         <img src="img/catalog/simus1.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -176,7 +176,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col d-flex align-items-stretch">
                     <div class="card">
                         <img src="img/catalog/starlord.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -187,8 +187,8 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col">
+            <div class="row row-whith-wide-cards mt-3">
+                <div class="col d-flex align-items-stretch">
                     <div class="card">
                         <img src="img/catalog/airpow.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -198,8 +198,8 @@
                     </div>
                 </div>
 
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                <div class="col d-flex align-items-stretch">
+                    <div class="card">
                         <img src="img/catalog/gan.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Baseus GaN 2 in 1 Power Bank 45W 10000mAh</h5>
@@ -208,8 +208,8 @@
                     </div>
                 </div>
 
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                <div class="col d-flex align-items-stretch">
+                    <div class="card">
                         <img src="img/catalog/adaman.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Baseus Adaman2 Power Bank 30W 20000mAh VOOC</h5>
@@ -218,8 +218,8 @@
                     </div>
                 </div>
 
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                <div class="col d-flex align-items-stretch">
+                    <div class="card">
                         <img src="img/catalog/elf.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Baseus Elf Power Bank 65W 20000mAh</h5>
