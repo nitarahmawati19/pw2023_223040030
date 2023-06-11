@@ -114,26 +114,31 @@
     </section>
 
     <!-- Clients -->
-    <div id="clients" class="parallax-container scrollspy">
-        <div class="parallax"><img src="img/clients/wtb.png"></div>
-        <div class="container clients">
-            <h3 class="center light black-text">Where To Buy</h3>
-            <div class="row">
-                <div class="col m4 s12 center">
-                    <img src="img/clients/amazon.png" alt>
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/clients/amazon.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    </div>
                 </div>
-                <div class="col m4 s12 center">
-                    <img src="img/clients/shopee.png" alt>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/clients/lazada.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    </div>
                 </div>
-                <div class="col m4 s12 center">
-                    <img src="img/clients/aliexpress.png" alt>
-                </div>
-                <div class="col m4 s12 center">
-                    <img src="img/clients/lazada.png" alt>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/clients/shopee.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- catalog -->
     <section id="products">
@@ -212,20 +217,27 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/catalog/elf.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Baseus Elf Power Bank 65W 20000mAh</h5>
+                            <a href="https://www.baseus.com/products/elf-power-bank-65w-20000mah" class="btn btn-warning">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Us -->
-    <section id="contact" class="contact grey lighten-3 scrollspy">
-        <div class="container">
-            <h3 class="light center grey-text text-darken-3">Contact Us</h3>
+    <!-- footer -->
+    <footer class="py-5 bg-dark text-white">
+        <div class="row">
+            <h3>Contact Us</h3>
             <div class="row">
-                <div class="col m5 s12">
-                    <div class="card-panel black darken-4 center
-                        white-text">
-                        <i class="material-icons">email</i>
-                        <h5>Contact</h5>
+                <div class="col">
+                    <div class="card-footer">
                         <p>Get in touch with us about any issues you're
                             having, we're always here to help.</p>
                     </div>
@@ -241,39 +253,25 @@
                     </ul>
                 </div>
 
-                <div class="col m7 s12">
+                <div class="col-md-5 offset-md-1 mb-3">
                     <form>
-                        <div class="card-panel">
-                            <h5>Please fill out this form</h5>
-                            <div class="input-field">
-                                <input type="text" name="name" id="name" required class="validate">
-                                <label for="name">Name</label>
-                            </div>
-                            <div class="input-field">
-                                <input type="email" name="email" id="email" class="validate">
-                                <label for="email">Email</label>
-                            </div>
-                            <div class="input-field">
-                                <input type="text" name="phone" id="phone">
-                                <label for="phone">Phone Number</label>
-                            </div>
-                            <div class="input-field">
-                                <textarea name="message" id="message" class="materialize-textarea"></textarea>
-                                <label for="message">Message</label>
-                            </div>
-                            <button type="submit" class="btn yellow">Send</button>
+                        <h5>Newsletter</h5>
+                        <p>Get the latest news from Baseus.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email
+                                address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-warning" type="button">Subscribe</button>
                         </div>
                     </form>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- footer -->
-    <footer class="black darken-4 white-text center">
-        <p>CopyRight 2023 Nta Rahmawati All Rights Reserved</p>
-        <footer>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2023 Nita Rahmawati. All rights reserved.</p>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 
 </html>
